@@ -280,7 +280,7 @@ void update_player_state(PlayerState* player, char*** world) {
 
     Point3D movement_direction = convert_angles_to_vector(player->orientation);
     
-    if (check_key_press('i')) {
+    if (check_key_press('j')) {
         player->position.x += movement_speed * movement_direction.x;
         player->position.y += movement_speed * movement_direction.y;
     }
@@ -288,7 +288,7 @@ void update_player_state(PlayerState* player, char*** world) {
         player->position.x -= movement_speed * movement_direction.x;
         player->position.y -= movement_speed * movement_direction.y;
     }
-    if (check_key_press('j')) {
+    if (check_key_press('h')) {
         player->position.x += movement_speed * movement_direction.y;
         player->position.y -= movement_speed * movement_direction.x;
     }

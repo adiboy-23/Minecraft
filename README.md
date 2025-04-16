@@ -43,9 +43,9 @@ To start the game:
 - `S` - Look down
 - `A` - Look left
 - `D` - Look right
-- `I` - Move forward
+- `J` - Move forward
 - `K` - Move backward
-- `J` - Strafe left
+- `H` - Strafe left
 - `L` - Strafe right
 
 ### Block Interaction
