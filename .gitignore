@@ -1,0 +1,10 @@
+.vscode/*
+minecraft
+minecraft.o
+*.o
+*.out
+*.out.dSYM
+*.out.dSYM.zip
+*.out.dSYM.zip.part
+*.out.dSYM.zip.part.1
+*.out.dSYM.zip.part.2
